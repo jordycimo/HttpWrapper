@@ -9,5 +9,5 @@
   <li>Javascript</li>
 </ul>
 <h3>You might be asking:</h3>
-<h5>"why not just use apache2 or nginx?"☝️🤓</h5>
+<h5>"why not just use apache or nginx?"☝️🤓</h5>
 <h3>And the answer to that is, idk.</h3>
