@@ -4,4 +4,5 @@ do_GET(self): is run every time the client tries to fetch info from the server.
 - end_headers() signifies ending the headers being sent to the client, so you can start sending real data (html files, images, text, etc.)
 - wfile.write() is used to actually write (send) data to the client. typically in UTF-8 bytes (ie the bytes("...","UTF-8) in most of these function calls.)
 
-all media has to be encoded to base64 lol
+all media has to be encoded to base64 lol (FOR NOW)
+literally add filetype checking dumb idiot!!!!!!!!
