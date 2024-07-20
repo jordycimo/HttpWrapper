@@ -1,0 +1,21 @@
+html {
+    background-color: #666666;
+}
+
+p, h1 {
+    color: #000000
+}
+
+.rotate{
+    width: 400px;
+    animation: rotation 6s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
