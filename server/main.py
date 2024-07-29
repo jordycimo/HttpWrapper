@@ -1,5 +1,3 @@
-# main server
-
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 host = "localhost"
@@ -17,9 +15,12 @@ class server(BaseHTTPRequestHandler):
             elif filetype == "gif":
                 self.send_header("Content-type","image/gif")
             self.end_headers()
-            with open("./server/res/"+self.path,"rb") as f:
-                self.wfile.write(f.read())
-                f.close()
+            try:
+                with open("./server/res/"+self.path,"rb") as f:
+                    self.wfile.write(f.read())
+                    f.close()
+            except:
+                self.log_error("file doesnt exist")
 
         except: # else show error
             self.send_response(404)
@@ -32,4 +33,5 @@ class server(BaseHTTPRequestHandler):
 if __name__ == "__main__":
     print(str(host)+" on port "+str(port))
     webserver = HTTPServer((host, port), server)
+    webserver.serve_forever()t, port), server)
     webserver.serve_forever()
