@@ -10,4 +10,4 @@
 </ul>
 <h3>You might be asking:</h3>
 <h5><img src="https://png.pngtree.com/png-clipart/20210309/original/pngtree-geek-emoji-in-3d-png-image_5877669.png" height="50">"why not just use apache or nginx?"</h5>
-<h3>And the answer to that is, idk.</h3>
+<h3>And the answer to that is, fuck you!!!!</h3>
